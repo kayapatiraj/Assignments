@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+</head>
+
+<body>
+    <table border="3" cellspacing>
+        <thead>
+            <th>name</th>
+            <th>age</th>
+            <th>marriage</th>
+            <th>language</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nagaraju</td>
+                <td>21</td>
+                <td>feb 25</td>
+                <td>telugu speak</td>
+            </tr>
+            <tr>
+                <td>Rajitha</td>
+                <td>16</td>
+                <td>feb26</td>
+                <td>telugu speak</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <h1><b>Race Registeriation!</b></h1>
+
+    <form action="First">
+        <label for="First">first name</label>
+        <input type="text" id="first" name="first">
+        <label for="last">last name</label>
+        <input type="text" id="last" name="last">
+
+        <div>
+            <p>select a Race:</p>
+            <input type="radio" name="race" id="fun run" value="funrun">
+            <label for="funrun">funrun</label>
+        </div>
+
+        <div>
+            <input type="radio" name="race" id="half" value="marathon">
+            <label for="half marathon">half marathon</label>
+        </div>
+
+        <div>
+            <input type="radio" name="full" id="funrun" value="maratho">
+            <label for="full marathon">full marathon</label>
+        </div>
+
+        <div>
+            <label for="Email">Email</label>
+            <input type="Email" name="Email" id="Email" required>
+            <label for="password">password</label>
+            <input type="password" name="pasword" id="password" required>
+        </div>
+
+        <div>
+            <p>
+                <label for="division">select age group</label>
+                <select name="division" id="division">
+                     <option value="kids">under 18</option>
+                     <option value="young">18-30</option>
+                     <option value="adults">30-45</option>
+                     <option value="senior">45-60</option>
+              </select>
+            </p>
+        </div>
+        <button>Register</button>
+    </form>
+</body>
+
+</html>
